@@ -1,0 +1,92 @@
+\input texinfo    @c -*- texinfo -*-
+@c %**start of header
+@setfilename book-test.info
+@settitle Book Draft 1 
+@c @documentencoding UTF-8
+@c @documentlanguage tr
+@smallbook
+@c %**end of header
+
+@finalout
+@titlepage
+@title 
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top 
+@end ifnottex
+
+@menu
+* Introduction::
+* Chapter 1::
+* Chapter 2::
+
+@detailmenu
+--- The Detailed Node Listing ---
+
+Chapter 1
+
+* Section 1::
+
+Chapter 2
+
+* Section 1: Section 1 (1). 
+* Subsection 1::
+
+@end detailmenu
+@end menu
+
+@node Introduction
+@chapter Introduction
+
+This is the introduction @*
+@enumerate
+@item
+list item @*
+@item
+list item @*
+@item
+list item @*
+@item
+Equation test: @*
+@end enumerate
+ @*
+@itemize
+@item
+Display equation @*
+@end itemize
+
+@node Chapter 1
+@chapter Chapter 1
+
+@menu
+* Section 1::
+@end menu
+
+@node Section 1
+@section Section 1
+
+This is section 1 text. @*
+
+@node Chapter 2
+@chapter Chapter 2
+
+@menu
+* Section 1: Section 1 (1). 
+* Subsection 1::
+@end menu
+
+@node Section 1 (1)
+@section Section 1
+
+This Chapter 2 Section 1 @*
+
+@node Subsection 1
+@section Subsection 1
+
+This is Chapter 2 Subsection 1 @*
+
+@bye
