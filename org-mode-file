@@ -1,0 +1,27 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
+#+OPTIONS: \n:t toc:t num:t
+
+#+TEXINFO_HEADER: @smallbook
+
+* Introduction
+This is the introduction
+1. list item
+2. list item
+3. list item
+- Equation test:   
+$F=ma$
+- Display equation
+  
+\begin{equation*}
+A = \frac{1}{100}
+\end{equation*}
+
+* Chapter 1
+** Section 1
+This is section 1 text.
+
+* Chapter 2
+** Section 1
+This Chapter 2 Section 1
+** Subsection 1
+This is Chapter 2 Subsection 1
